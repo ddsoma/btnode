@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose linkPkg /Users/jade/Documents/devworkspace/node/btnode
+5 verbose link build target /usr/local/lib/node_modules/btnode
+6 verbose install where,what [ '/Users/jade/Documents/devworkspace/node/btnode', [] ]
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/jade/Documents/devworkspace/node/btnode',
+8 verbose install   [ 'log4js' ] ]
+9 info preinstall btnode@1.0.5
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping log4js@* /Users/jade/Documents/devworkspace/node/btnode
+12 silly resolved []
+13 info build /Users/jade/Documents/devworkspace/node/btnode
+14 verbose linkStuff [ false, false, false, '/Users/jade/Documents/devworkspace/node' ]
+15 info linkStuff btnode@1.0.5
+16 verbose linkBins btnode@1.0.5
+17 verbose linkMans btnode@1.0.5
+18 verbose rebuildBundles btnode@1.0.5
+19 verbose rebuildBundles [ 'log4js' ]
+20 info install btnode@1.0.5
+21 info postinstall btnode@1.0.5
+22 info prepublish btnode@1.0.5
+23 info build /usr/local/lib/node_modules/btnode
+24 verbose linkStuff [ true,
+24 verbose linkStuff   '/usr/local/lib/node_modules',
+24 verbose linkStuff   true,
+24 verbose linkStuff   '/usr/local/lib/node_modules' ]
+25 info linkStuff btnode@1.0.5
+26 verbose linkBins btnode@1.0.5
+27 verbose link bins [ { btnode1: 'btnode' }, '/usr/local/bin', true ]
+28 verbose linkMans btnode@1.0.5
+29 error Error: ENOENT, chmod '/usr/local/lib/node_modules/btnode/btnode'
+30 error If you need help, you may report this *entire* log,
+30 error including the npm and node versions, at:
+30 error     <http://github.com/npm/npm/issues>
+31 error System Darwin 14.0.0
+32 error command "node" "/usr/local/bin/npm" "link"
+33 error cwd /Users/jade/Documents/devworkspace/node/btnode
+34 error node -v v0.10.33
+35 error npm -v 1.4.28
+36 error path /usr/local/lib/node_modules/btnode/btnode
+37 error code ENOENT
+38 error errno 34
+39 verbose exit [ 34, true ]

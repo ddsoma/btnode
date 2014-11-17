@@ -1,0 +1,6 @@
+[2014-11-17 09:39:20.917] [INFO] err - GET/app.js
+ENOENT, stat '/Users/jade/Documents/devworkspace/node/btnode/localhost/app.js'
+[2014-11-17 09:39:40.745] [INFO] err - GET/js/test1.js
+ENOENT, stat '/Users/jade/Documents/devworkspace/node/btnode/localhost/js/test1.js'
+[2014-11-17 09:40:45.497] [INFO] err - GET/app.js
+ENOENT, stat '/Users/jade/Documents/devworkspace/node/btnode/public/app.js'

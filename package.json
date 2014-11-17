@@ -1,12 +1,13 @@
 {
   "name": "btnode",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "",
   "main": "app.js",
+   "bin": { "btnode1": "btnode" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "ddsoma",
   "license": "ISC",
   "devDependencies":{
   	"log4js":"*"
