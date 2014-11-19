@@ -79,23 +79,27 @@ http.createServer(function(req,res){
 	    	if(err){
 	    		logger.getLogger("err").info(req.method+req.url+"\r\n"+err.message);
 	    		res.writeHead(404);
-	    		res.end(err.message);
+	    		res.end("error");
 	    		return;
 	    	}else{
 	    		 logger.getLogger("info").info(req.method+req.url+"\r\n");
+
 	    		 var ifModifiedSince="If-Modified-Since".toLowerCase();
 	    		 var lastmtime=new Date(Math.max.apply(null,mtimes)).toUTCString();
 	    		 var extname=path.extname(pathnames[0]);
-	    		 res.setHeader("Content-Type",mime[extname]);
 	    		 var expires = new Date();
    				 expires.setTime(expires.getTime() + 3600 * 1000);
+
    				 res.setHeader("Expires", expires.toUTCString());
 	    		 res.setHeader("Cache-Control","max-age=3600");
+	    		 res.setHeader("Content-Type",mime[extname]);
+
 	    		 if(req.headers[ifModifiedSince]&&req.headers[ifModifiedSince]==lastmtime){
 	    		 		res.writeHead(304,"Not Modified");
 	    		 		res.end();
 	    		 		return;
 	    		 }
+	    		 
 	    		 res.setHeader("Last-Modified",lastmtime);
 	    		 outputFile(pathnames,res);
 	    	}

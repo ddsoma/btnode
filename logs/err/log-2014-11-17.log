@@ -4,3 +4,9 @@ ENOENT, stat '/Users/jade/Documents/devworkspace/node/btnode/localhost/app.js'
 ENOENT, stat '/Users/jade/Documents/devworkspace/node/btnode/localhost/js/test1.js'
 [2014-11-17 09:40:45.497] [INFO] err - GET/app.js
 ENOENT, stat '/Users/jade/Documents/devworkspace/node/btnode/public/app.js'
+[2014-11-17 17:40:19.869] [INFO] err - GET/
+
+[2014-11-17 17:41:05.573] [INFO] err - GET/
+
+[2014-11-17 17:42:27.026] [INFO] err - GET/
+
