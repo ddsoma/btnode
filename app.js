@@ -73,7 +73,7 @@ http.createServer(function(req,res){
 		}
   
 		var pathnames=paths[1].split(",").map(function(value){
-			return path.join(__dirname,root, paths[0],value);
+			return path.join(root, paths[0],value);
 		})
 
 	    validatefile(pathnames,function(err,mtimes){
