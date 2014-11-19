@@ -36,7 +36,7 @@ function validatefile(pathnames,callback){
 	
 	})(0,pathnames.length)
 }
-console.log(1);
+
 
 function outputFile(pathnames,res){
 	var body="";
