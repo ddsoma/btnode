@@ -7,7 +7,7 @@ var querystring=require("querystring");
 var path = require('path');
 var mime=require("./config/mimeTypes");
 var logger=require("./log.js");
-var config=require("./config/config.js");
+var config=require("./config");
 
 //icon内容获取
 var ico="";	
