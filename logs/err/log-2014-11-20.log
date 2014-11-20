@@ -1,0 +1,8 @@
+[2014-11-20 10:40:22.668] [INFO] err - GET/bracelet/blui/ui-dialog.js
+ENOENT, stat '/users/jade/documents/devworkspace/node/btnode/public/bracelet/blui/ui-dialog.js'
+[2014-11-20 10:40:49.428] [INFO] err - GET/bracelet/app/blui/ui-dialog.js
+ENOENT, stat '/users/jade/documents/devworkspace/node/btnode/public/bracelet/app/blui/ui-dialog.js'
+[2014-11-20 10:40:57.427] [INFO] err - GET/bracelet/app/blui/ui-dialog.js
+ENOENT, stat '/users/jade/documents/devworkspace/node/btnode/public/bracelet/app/blui/ui-dialog.js'
+[2014-11-20 14:27:16.633] [INFO] err - GET/
+

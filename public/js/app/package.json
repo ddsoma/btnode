@@ -1,0 +1,17 @@
+{
+    "spm" : {
+        "output" : {
+            "relative" : [
+            	"casep/index.js",            	
+                "order/patApply.js",
+                "order/checkOrder.js"                 
+            ]
+        },
+        "alias" : {
+         "$": "gallery/jquery/jquery-1.10.2.min.js",
+          "jQuery":"gallery/jquery/jquery-1.10.2.min.js",
+		  "jquery-validate": "gallery/jquery.validate/jquery.validate.js",        
+           "$cookie":"gallery/jquery.cookie/jquery.cookie.js"		  
+        }
+    }
+}

@@ -3,71 +3,47 @@ module.exports = function (grunt) {
     var style = transport.style.init(grunt);
     var text = transport.text.init(grunt);
     var script = transport.script.init(grunt);
+    var config=require("../config");
     grunt.initConfig({
         pkg : grunt.file.readJSON("package.json"),
         transport : {
             options : {
-                paths : ['.'],
-                alias: '<%= pkg.spm.alias %>',
+                paths : [config.root+config.spm.base],
+                alias: config.spm.alias,
                 parsers : {
                     '.js' : [script.jsParser],
                     '.css' : [style.css2jsParser],
                     '.html' : [text.html2jsParser]
                 }
             },
-            styles : {
-                options : {
-                    idleading : 'dist/styles/'
-                },
-                files : [
-                    {
-                        cwd : 'styles/',
-                        src : '**/*',
-                        filter : 'isFile',
-                        dest : '.build/styles'
-                    }
-                ]
-            },
             app1 : {
                 options : {
-                    idleading : 'app1/'
+                    idleading : ''
                 },
                 files : [
                     {
-                        cwd : 'app',
-                        src : '**/*',
+                        expand: true,
+                        cwd : config.root,
+                        src : config.gruntFile,
                         filter : 'isFile',
-                        dest : '.build/app'
+                        dest : config.root+'/build'
                     }
                 ]
             }
         },
         concat : {
             options : {
-                paths : ['.'],
+                paths : [config.root+config.spm.base],
                 include : 'relative'
             },
-            styles : {
-                files: [
-                    {
-                        expand: true,
-                        cwd: '.build/',
-                        src: ['styles/**/*.js'],
-                        dest: 'dist/',
-                        ext: '.js'
-                    }
-                ]
-            },
             app1 : {
-                options : {
-                    include : 'all'
-                },
+                
                 files: [
                     {
                         expand: true,
-                        cwd: '.build/',
-                        src: ['app/**/*.js'],
-                        dest: 'dist/',
+                        cwd: config.root+'/build',
+                        src: config.gruntFile,
+                        dest: config.root+"/assets",
                         ext: '.js'
                     }
                 ]
@@ -78,9 +54,9 @@ module.exports = function (grunt) {
                 files: [
                     {
                         expand: true,
-                        cwd: 'dist/',
+                        cwd: config.root+"/assets",
                         src: ['styles/**/*.js', '!styles/**/*-debug.js'],
-                        dest: 'dist/',
+                        dest: config.root+"/assets",
                         ext: '.js'
                     }
                 ]
@@ -89,16 +65,19 @@ module.exports = function (grunt) {
                 files: [
                     {
                         expand: true,
-                        cwd: 'dist/',
-                        src: ['app/**/*.js', '!app/**/*-debug.js'],
-                        dest: 'dist/',
+                        cwd: config.root+"/assets",
+                        src: ['**/*.js', '!**/*-debug.js'],
+                        dest: config.root+"/assets",
                         ext: '.js'
                     }
                 ]
             }
         },
         clean : {
-            spm : ['.build']
+            options:{
+                force:true
+            },
+            spm : [config.root+'/build']
         }
     });
     grunt.loadNpmTasks('grunt-cmd-transport');

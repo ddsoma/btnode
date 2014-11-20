@@ -14,6 +14,6 @@
   		"grunt-contrib-jshint":"*",
   		"grunt-contrib-uglify":"*",
   		"grunt-contrib-watch":"*",
-  		"grunt-css-combo":"*",
+  		"grunt-css-combo":"*"
   }
 }
