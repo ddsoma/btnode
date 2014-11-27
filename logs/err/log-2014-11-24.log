@@ -1,0 +1,2 @@
+[2014-11-24 13:49:18.390] [INFO] err - GET/bracelet/app/blui/ui-dialog.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/bracelet/app/blui/ui-dialog.js'

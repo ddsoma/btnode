@@ -9,12 +9,7 @@ module.exports = function (grunt) {
         transport : {
             options : {
                 paths : [config.root+config.spm.base],
-                alias: config.spm.alias,
-                parsers : {
-                    '.js' : [script.jsParser],
-                    '.css' : [style.css2jsParser],
-                    '.html' : [text.html2jsParser]
-                }
+                alias: config.spm.alias
             },
             app1 : {
                 options : {
@@ -23,7 +18,7 @@ module.exports = function (grunt) {
                 files : [
                     {
                         expand: true,
-                        cwd : config.root,
+                        cwd : config.root+"/js",
                         src : config.gruntFile,
                         filter : 'isFile',
                         dest : config.root+'/build'
@@ -37,40 +32,46 @@ module.exports = function (grunt) {
                 include : 'relative'
             },
             app1 : {
-                
                 files: [
                     {
                         expand: true,
                         cwd: config.root+'/build',
                         src: config.gruntFile,
-                        dest: config.root+"/assets",
+                        dest: config.root+"/assets/js",
+                        filter:"isFile",
                         ext: '.js'
                     }
                 ]
             }
         },
         uglify : {
-            styles : {
-                files: [
-                    {
-                        expand: true,
-                        cwd: config.root+"/assets",
-                        src: ['styles/**/*.js', '!styles/**/*-debug.js'],
-                        dest: config.root+"/assets",
-                        ext: '.js'
-                    }
-                ]
-            },
             app1 : {
                 files: [
                     {
                         expand: true,
-                        cwd: config.root+"/assets",
+                        cwd: config.root+"/assets/js",
                         src: ['**/*.js', '!**/*-debug.js'],
-                        dest: config.root+"/assets",
+                        dest: config.root+"/assets/js",
+                        filter:"isFile",
                         ext: '.js'
                     }
                 ]
+            }
+        },
+        css_combo:{
+            cssbuild:{
+                options:{
+                    debug:false,
+                    compress:true
+                },
+                files:[{
+                    expand:true,
+                    cwd:config.root+"/css",
+                    src:"**/*.css",
+                    filter:"isFile",
+                    dest:config.root+"/assets/css",
+                    ext:".css"
+                }]
             }
         },
         clean : {
@@ -84,7 +85,9 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-cmd-concat');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-css-combo');
     grunt.registerTask('build-styles', ['transport:styles', 'concat:styles', 'uglify:styles', 'clean']);
-    grunt.registerTask('build-app1', ['transport:app1', 'concat:app1', 'uglify:app1', 'clean']);
+    grunt.registerTask('build-app1', ['transport:app1', 'concat:app1', 'uglify:app1', 'clean',"css_combo"]);
+    
 //    grunt.registerTask('default', ['clean']);
 };

@@ -1,7 +1,7 @@
-
 cd /Users/jade/documents/devworkspace/git/static
 git reset --hard
-git pull origin HEAD
+git pull origin master
+git merge master
 cd /Users/jade/documents/devworkspace/node/btnode/grunt
 grunt build-app1
 cd ..

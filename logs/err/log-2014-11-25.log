@@ -1,0 +1,400 @@
+[2014-11-25 10:09:28.632] [INFO] err - GET/css/bootstrap.css
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/css/bootstrap.css'
+[2014-11-25 10:09:28.642] [INFO] err - GET/css/bootstrap-responsive.css
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/css/bootstrap-responsive.css'
+[2014-11-25 10:09:28.643] [INFO] err - GET/css/style.css
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/css/style.css'
+[2014-11-25 10:09:28.645] [INFO] err - GET/js/jquery-1.9.1.min.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/jquery-1.9.1.min.js'
+[2014-11-25 10:09:28.651] [INFO] err - GET/js/bootstrap.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/bootstrap.js'
+[2014-11-25 10:09:28.652] [INFO] err - GET/js/jquery.carouFredSel-6.2.0-packed.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/jquery.carouFredSel-6.2.0-packed.js'
+[2014-11-25 10:09:28.654] [INFO] err - GET/js/static.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/static.js'
+[2014-11-25 10:09:28.655] [INFO] err - GET/img/logo.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/logo.png'
+[2014-11-25 10:09:28.660] [INFO] err - GET/img/hero-diagram.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-diagram.png'
+[2014-11-25 10:09:28.661] [INFO] err - GET/img/hero-dashboard.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-dashboard.png'
+[2014-11-25 10:09:28.661] [INFO] err - GET/img/hero-environments.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-environments.png'
+[2014-11-25 10:09:28.663] [INFO] err - GET/img/hero-server.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-server.png'
+[2014-11-25 10:09:28.664] [INFO] err - GET/img/hero-domain.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-domain.png'
+[2014-11-25 10:09:28.665] [INFO] err - GET/img/hero-open-source.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-open-source.png'
+[2014-11-25 10:09:28.666] [INFO] err - GET/img/app-icons/wordpress.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/wordpress.png'
+[2014-11-25 10:09:28.668] [INFO] err - GET/img/app-icons/drupal.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/drupal.png'
+[2014-11-25 10:09:28.670] [INFO] err - GET/img/app-icons/joomla.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/joomla.png'
+[2014-11-25 10:09:28.673] [INFO] err - GET/img/app-icons/php.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/php.png'
+[2014-11-25 10:09:28.674] [INFO] err - GET/img/app-icons/ruby.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/ruby.png'
+[2014-11-25 10:09:28.674] [INFO] err - GET/img/app-icons/java.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/java.png'
+[2014-11-25 10:09:28.677] [INFO] err - GET/img/app-icons/spring.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/spring.png'
+[2014-11-25 10:09:28.678] [INFO] err - GET/img/app-icons/mysql.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/mysql.png'
+[2014-11-25 10:09:28.683] [INFO] err - GET/img/app-icons/cassandra.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/cassandra.png'
+[2014-11-25 10:09:28.684] [INFO] err - GET/img/app-icons/mongodb.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/mongodb.png'
+[2014-11-25 10:09:28.685] [INFO] err - GET/img/app-icons/redis.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/redis.png'
+[2014-11-25 10:09:28.686] [INFO] err - GET/img/app-icons/nodejs.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/nodejs.png'
+[2014-11-25 10:09:28.687] [INFO] err - GET/img/app-icons/tomcat.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/tomcat.png'
+[2014-11-25 10:09:28.693] [INFO] err - GET/img/app-icons/rails.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/rails.png'
+[2014-11-25 10:09:28.693] [INFO] err - GET/img/app-icons/rack.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/rack.png'
+[2014-11-25 10:09:28.694] [INFO] err - GET/img/app-icons/sinatra.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/sinatra.png'
+[2014-11-25 10:09:28.696] [INFO] err - GET/img/app-icons/python.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/python.png'
+[2014-11-25 10:09:28.696] [INFO] err - GET/img/app-icons/wsgi.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/wsgi.png'
+[2014-11-25 10:09:28.705] [INFO] err - GET/img/app-icons/django.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/django.png'
+[2014-11-25 10:09:28.705] [INFO] err - GET/img/app-icons/flask.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/flask.png'
+[2014-11-25 10:09:28.706] [INFO] err - GET/img/app-icons/html5.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/html5.png'
+[2014-11-25 10:09:28.707] [INFO] err - GET/img/app-icons/bootstrap.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/bootstrap.png'
+[2014-11-25 10:09:28.708] [INFO] err - GET/img/app-icons/phpmyadmin.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/phpmyadmin.png'
+[2014-11-25 10:09:28.714] [INFO] err - GET/img/app-icons/elasticsearch.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/elasticsearch.png'
+[2014-11-25 10:09:28.715] [INFO] err - GET/img/app-icons/memcached.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/memcached.png'
+[2014-11-25 10:09:28.717] [INFO] err - GET/img/app-icons/postgresql.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/postgresql.png'
+[2014-11-25 10:09:28.718] [INFO] err - GET/img/app-icons/rabbitmq.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/rabbitmq.png'
+[2014-11-25 10:09:28.720] [INFO] err - GET/img/app-icons/grails.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/grails.png'
+[2014-11-25 10:09:28.723] [INFO] err - GET/img/app-icons/lift.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/lift.png'
+[2014-11-25 10:09:28.724] [INFO] err - GET/img/app-icons/play.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/play.png'
+[2014-11-25 10:09:28.724] [INFO] err - GET/img/app-icons/fuelphp.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/fuelphp.png'
+[2014-11-25 10:09:28.725] [INFO] err - GET/img/app-icons/kohana.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/kohana.png'
+[2014-11-25 10:09:28.727] [INFO] err - GET/img/app-icons/laravel.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/laravel.png'
+[2014-11-25 10:09:28.731] [INFO] err - GET/img/app-icons/symfony.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/symfony.png'
+[2014-11-25 10:09:28.733] [INFO] err - GET/img/app-icons/zend.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/zend.png'
+[2014-11-25 10:09:28.734] [INFO] err - GET/img/app-icons/express.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/express.png'
+[2014-11-25 10:09:28.753] [INFO] err - GET/img/app-icons/hadoop.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/hadoop.png'
+[2014-11-25 10:09:28.756] [INFO] err - GET/img/app-icons/smf.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/smf.png'
+[2014-11-25 10:09:28.756] [INFO] err - GET/img/app-icons/mediawiki.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/mediawiki.png'
+[2014-11-25 10:09:28.757] [INFO] err - GET/img/app-icons/nexus.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/nexus.png'
+[2014-11-25 10:09:28.760] [INFO] err - GET/img/app-icons/erlang.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/erlang.png'
+[2014-11-25 10:09:29.002] [INFO] err - GET/img/cloud-stack-gray.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/cloud-stack-gray.png'
+[2014-11-25 10:09:29.002] [INFO] err - GET/img/clients/thq-screenshot.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/thq-screenshot.png'
+[2014-11-25 10:09:29.003] [INFO] err - GET/img/clients/thq.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/thq.png'
+[2014-11-25 10:09:29.003] [INFO] err - GET/img/clients/ccs-screenshot.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/ccs-screenshot.png'
+[2014-11-25 10:09:29.004] [INFO] err - GET/img/clients/ccs.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/ccs.png'
+[2014-11-25 10:09:29.010] [INFO] err - GET/js/homepage-hero-more-information.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/homepage-hero-more-information.js'
+[2014-11-25 10:09:29.013] [INFO] err - GET/img/clients/square-enix-screenshot.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/square-enix-screenshot.png'
+[2014-11-25 10:09:29.014] [INFO] err - GET/img/clients/square-enix.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/square-enix.png'
+[2014-11-25 10:09:29.016] [INFO] err - GET/img/clients/arthritis-screenshot.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/arthritis-screenshot.png'
+[2014-11-25 10:09:29.018] [INFO] err - GET/img/clients/arthritis-logo.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/arthritis-logo.png'
+[2014-11-25 10:09:29.019] [INFO] err - GET/img/bolt.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/bolt.png'
+[2014-11-25 10:09:29.020] [INFO] err - GET/img/icann-accredited.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/icann-accredited.png'
+[2014-11-25 10:09:39.811] [INFO] err - GET/css/bootstrap.css
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/css/bootstrap.css'
+[2014-11-25 10:09:39.812] [INFO] err - GET/css/bootstrap-responsive.css
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/css/bootstrap-responsive.css'
+[2014-11-25 10:09:39.812] [INFO] err - GET/css/style.css
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/css/style.css'
+[2014-11-25 10:09:39.813] [INFO] err - GET/js/jquery-1.9.1.min.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/jquery-1.9.1.min.js'
+[2014-11-25 10:09:39.813] [INFO] err - GET/js/bootstrap.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/bootstrap.js'
+[2014-11-25 10:09:39.814] [INFO] err - GET/js/jquery.carouFredSel-6.2.0-packed.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/jquery.carouFredSel-6.2.0-packed.js'
+[2014-11-25 10:09:39.818] [INFO] err - GET/js/static.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/static.js'
+[2014-11-25 10:09:39.820] [INFO] err - GET/img/logo.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/logo.png'
+[2014-11-25 10:09:40.407] [INFO] err - GET/img/hero-diagram.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-diagram.png'
+[2014-11-25 10:09:40.408] [INFO] err - GET/img/hero-dashboard.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-dashboard.png'
+[2014-11-25 10:09:40.410] [INFO] err - GET/img/hero-environments.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-environments.png'
+[2014-11-25 10:09:40.410] [INFO] err - GET/img/hero-server.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-server.png'
+[2014-11-25 10:09:40.412] [INFO] err - GET/img/hero-domain.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-domain.png'
+[2014-11-25 10:09:40.416] [INFO] err - GET/img/hero-open-source.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-open-source.png'
+[2014-11-25 10:09:40.420] [INFO] err - GET/img/app-icons/wordpress.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/wordpress.png'
+[2014-11-25 10:09:40.422] [INFO] err - GET/img/app-icons/drupal.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/drupal.png'
+[2014-11-25 10:09:40.423] [INFO] err - GET/img/app-icons/joomla.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/joomla.png'
+[2014-11-25 10:09:40.423] [INFO] err - GET/img/app-icons/php.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/php.png'
+[2014-11-25 10:09:40.425] [INFO] err - GET/img/app-icons/ruby.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/ruby.png'
+[2014-11-25 10:09:40.430] [INFO] err - GET/img/app-icons/java.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/java.png'
+[2014-11-25 10:09:40.445] [INFO] err - GET/img/app-icons/spring.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/spring.png'
+[2014-11-25 10:09:40.447] [INFO] err - GET/img/app-icons/mysql.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/mysql.png'
+[2014-11-25 10:09:40.450] [INFO] err - GET/img/app-icons/cassandra.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/cassandra.png'
+[2014-11-25 10:09:40.451] [INFO] err - GET/img/app-icons/mongodb.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/mongodb.png'
+[2014-11-25 10:09:40.451] [INFO] err - GET/img/app-icons/redis.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/redis.png'
+[2014-11-25 10:09:40.452] [INFO] err - GET/img/app-icons/nodejs.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/nodejs.png'
+[2014-11-25 10:09:40.458] [INFO] err - GET/img/app-icons/tomcat.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/tomcat.png'
+[2014-11-25 10:09:40.465] [INFO] err - GET/img/app-icons/rails.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/rails.png'
+[2014-11-25 10:09:40.467] [INFO] err - GET/img/app-icons/rack.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/rack.png'
+[2014-11-25 10:09:40.468] [INFO] err - GET/img/app-icons/sinatra.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/sinatra.png'
+[2014-11-25 10:09:40.469] [INFO] err - GET/img/app-icons/python.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/python.png'
+[2014-11-25 10:09:40.470] [INFO] err - GET/img/app-icons/wsgi.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/wsgi.png'
+[2014-11-25 10:09:40.470] [INFO] err - GET/img/app-icons/django.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/django.png'
+[2014-11-25 10:09:40.474] [INFO] err - GET/img/app-icons/flask.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/flask.png'
+[2014-11-25 10:09:40.476] [INFO] err - GET/img/app-icons/html5.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/html5.png'
+[2014-11-25 10:09:40.480] [INFO] err - GET/img/app-icons/bootstrap.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/bootstrap.png'
+[2014-11-25 10:09:40.480] [INFO] err - GET/img/app-icons/phpmyadmin.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/phpmyadmin.png'
+[2014-11-25 10:09:40.482] [INFO] err - GET/img/app-icons/elasticsearch.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/elasticsearch.png'
+[2014-11-25 10:09:40.488] [INFO] err - GET/img/app-icons/memcached.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/memcached.png'
+[2014-11-25 10:09:40.490] [INFO] err - GET/img/app-icons/postgresql.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/postgresql.png'
+[2014-11-25 10:09:40.490] [INFO] err - GET/img/app-icons/rabbitmq.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/rabbitmq.png'
+[2014-11-25 10:09:40.491] [INFO] err - GET/img/app-icons/grails.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/grails.png'
+[2014-11-25 10:09:40.492] [INFO] err - GET/img/app-icons/lift.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/lift.png'
+[2014-11-25 10:09:40.496] [INFO] err - GET/img/app-icons/play.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/play.png'
+[2014-11-25 10:09:40.505] [INFO] err - GET/img/app-icons/fuelphp.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/fuelphp.png'
+[2014-11-25 10:09:40.506] [INFO] err - GET/img/app-icons/kohana.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/kohana.png'
+[2014-11-25 10:09:40.506] [INFO] err - GET/img/app-icons/laravel.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/laravel.png'
+[2014-11-25 10:09:40.507] [INFO] err - GET/img/app-icons/symfony.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/symfony.png'
+[2014-11-25 10:09:40.507] [INFO] err - GET/img/app-icons/zend.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/zend.png'
+[2014-11-25 10:09:40.516] [INFO] err - GET/img/app-icons/express.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/express.png'
+[2014-11-25 10:09:40.518] [INFO] err - GET/img/app-icons/hadoop.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/hadoop.png'
+[2014-11-25 10:09:40.519] [INFO] err - GET/img/app-icons/smf.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/smf.png'
+[2014-11-25 10:09:40.521] [INFO] err - GET/img/app-icons/mediawiki.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/mediawiki.png'
+[2014-11-25 10:09:40.521] [INFO] err - GET/img/app-icons/nexus.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/nexus.png'
+[2014-11-25 10:09:40.522] [INFO] err - GET/img/app-icons/erlang.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/erlang.png'
+[2014-11-25 10:09:40.523] [INFO] err - GET/img/cloud-stack-gray.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/cloud-stack-gray.png'
+[2014-11-25 10:09:40.527] [INFO] err - GET/img/clients/thq-screenshot.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/thq-screenshot.png'
+[2014-11-25 10:09:40.529] [INFO] err - GET/img/clients/thq.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/thq.png'
+[2014-11-25 10:09:40.742] [INFO] err - GET/img/clients/ccs.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/ccs.png'
+[2014-11-25 10:09:40.742] [INFO] err - GET/img/clients/square-enix-screenshot.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/square-enix-screenshot.png'
+[2014-11-25 10:09:40.746] [INFO] err - GET/img/clients/square-enix.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/square-enix.png'
+[2014-11-25 10:09:40.746] [INFO] err - GET/img/clients/arthritis-screenshot.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/arthritis-screenshot.png'
+[2014-11-25 10:09:40.750] [INFO] err - GET/img/clients/arthritis-logo.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/arthritis-logo.png'
+[2014-11-25 10:09:40.755] [INFO] err - GET/js/homepage-hero-more-information.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/homepage-hero-more-information.js'
+[2014-11-25 10:09:40.760] [INFO] err - GET/img/bolt.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/bolt.png'
+[2014-11-25 10:09:40.760] [INFO] err - GET/img/icann-accredited.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/icann-accredited.png'
+[2014-11-25 10:10:38.168] [INFO] err - GET/css/bootstrap.css
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/css/bootstrap.css'
+[2014-11-25 10:10:38.169] [INFO] err - GET/css/bootstrap-responsive.css
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/css/bootstrap-responsive.css'
+[2014-11-25 10:10:38.169] [INFO] err - GET/css/style.css
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/css/style.css'
+[2014-11-25 10:10:38.170] [INFO] err - GET/js/jquery-1.9.1.min.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/jquery-1.9.1.min.js'
+[2014-11-25 10:10:38.171] [INFO] err - GET/js/bootstrap.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/bootstrap.js'
+[2014-11-25 10:10:38.172] [INFO] err - GET/js/jquery.carouFredSel-6.2.0-packed.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/jquery.carouFredSel-6.2.0-packed.js'
+[2014-11-25 10:10:38.176] [INFO] err - GET/js/static.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/static.js'
+[2014-11-25 10:10:38.178] [INFO] err - GET/img/logo.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/logo.png'
+[2014-11-25 10:10:38.986] [INFO] err - GET/img/hero-dashboard.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-dashboard.png'
+[2014-11-25 10:10:38.988] [INFO] err - GET/img/hero-environments.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-environments.png'
+[2014-11-25 10:10:38.988] [INFO] err - GET/img/hero-server.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-server.png'
+[2014-11-25 10:10:38.990] [INFO] err - GET/img/hero-domain.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-domain.png'
+[2014-11-25 10:10:38.991] [INFO] err - GET/img/hero-open-source.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/hero-open-source.png'
+[2014-11-25 10:10:38.992] [INFO] err - GET/img/app-icons/wordpress.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/wordpress.png'
+[2014-11-25 10:10:39.004] [INFO] err - GET/img/app-icons/drupal.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/drupal.png'
+[2014-11-25 10:10:39.005] [INFO] err - GET/img/app-icons/joomla.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/joomla.png'
+[2014-11-25 10:10:39.009] [INFO] err - GET/img/app-icons/php.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/php.png'
+[2014-11-25 10:10:39.010] [INFO] err - GET/js/homepage-hero-more-information.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/js/homepage-hero-more-information.js'
+[2014-11-25 10:10:39.010] [INFO] err - GET/img/app-icons/ruby.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/ruby.png'
+[2014-11-25 10:10:39.015] [INFO] err - GET/img/app-icons/java.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/java.png'
+[2014-11-25 10:10:39.016] [INFO] err - GET/img/app-icons/spring.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/spring.png'
+[2014-11-25 10:10:39.023] [INFO] err - GET/img/app-icons/mysql.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/mysql.png'
+[2014-11-25 10:10:39.025] [INFO] err - GET/img/app-icons/cassandra.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/cassandra.png'
+[2014-11-25 10:10:39.028] [INFO] err - GET/img/app-icons/mongodb.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/mongodb.png'
+[2014-11-25 10:10:39.028] [INFO] err - GET/img/app-icons/redis.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/redis.png'
+[2014-11-25 10:10:39.029] [INFO] err - GET/img/app-icons/nodejs.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/nodejs.png'
+[2014-11-25 10:10:39.033] [INFO] err - GET/img/app-icons/tomcat.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/tomcat.png'
+[2014-11-25 10:10:39.036] [INFO] err - GET/img/app-icons/rails.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/rails.png'
+[2014-11-25 10:10:39.037] [INFO] err - GET/img/app-icons/rack.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/rack.png'
+[2014-11-25 10:10:39.038] [INFO] err - GET/img/app-icons/sinatra.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/sinatra.png'
+[2014-11-25 10:10:39.042] [INFO] err - GET/img/app-icons/python.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/python.png'
+[2014-11-25 10:10:39.044] [INFO] err - GET/img/app-icons/wsgi.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/wsgi.png'
+[2014-11-25 10:10:39.047] [INFO] err - GET/img/app-icons/django.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/django.png'
+[2014-11-25 10:10:39.050] [INFO] err - GET/img/app-icons/flask.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/flask.png'
+[2014-11-25 10:10:39.054] [INFO] err - GET/img/app-icons/html5.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/html5.png'
+[2014-11-25 10:10:39.055] [INFO] err - GET/img/app-icons/bootstrap.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/bootstrap.png'
+[2014-11-25 10:10:39.055] [INFO] err - GET/img/app-icons/phpmyadmin.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/phpmyadmin.png'
+[2014-11-25 10:10:39.056] [INFO] err - GET/img/app-icons/elasticsearch.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/elasticsearch.png'
+[2014-11-25 10:10:39.059] [INFO] err - GET/img/app-icons/memcached.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/memcached.png'
+[2014-11-25 10:10:39.061] [INFO] err - GET/img/app-icons/postgresql.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/postgresql.png'
+[2014-11-25 10:10:39.069] [INFO] err - GET/img/app-icons/rabbitmq.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/rabbitmq.png'
+[2014-11-25 10:10:39.070] [INFO] err - GET/img/app-icons/grails.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/grails.png'
+[2014-11-25 10:10:39.077] [INFO] err - GET/img/app-icons/play.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/play.png'
+[2014-11-25 10:10:39.077] [INFO] err - GET/img/app-icons/lift.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/lift.png'
+[2014-11-25 10:10:39.078] [INFO] err - GET/img/app-icons/fuelphp.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/fuelphp.png'
+[2014-11-25 10:10:39.084] [INFO] err - GET/img/app-icons/kohana.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/kohana.png'
+[2014-11-25 10:10:39.085] [INFO] err - GET/img/app-icons/laravel.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/laravel.png'
+[2014-11-25 10:10:39.095] [INFO] err - GET/img/app-icons/symfony.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/symfony.png'
+[2014-11-25 10:10:39.096] [INFO] err - GET/img/app-icons/zend.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/zend.png'
+[2014-11-25 10:10:39.097] [INFO] err - GET/img/app-icons/express.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/express.png'
+[2014-11-25 10:10:39.097] [INFO] err - GET/img/app-icons/hadoop.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/hadoop.png'
+[2014-11-25 10:10:39.099] [INFO] err - GET/img/app-icons/smf.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/smf.png'
+[2014-11-25 10:10:39.103] [INFO] err - GET/img/app-icons/mediawiki.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/mediawiki.png'
+[2014-11-25 10:10:39.106] [INFO] err - GET/img/app-icons/nexus.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/nexus.png'
+[2014-11-25 10:10:39.112] [INFO] err - GET/img/app-icons/erlang.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/app-icons/erlang.png'
+[2014-11-25 10:10:39.113] [INFO] err - GET/img/cloud-stack-gray.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/cloud-stack-gray.png'
+[2014-11-25 10:10:39.113] [INFO] err - GET/img/clients/thq-screenshot.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/thq-screenshot.png'
+[2014-11-25 10:10:39.115] [INFO] err - GET/img/clients/thq.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/thq.png'
+[2014-11-25 10:10:39.118] [INFO] err - GET/img/clients/ccs.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/ccs.png'
+[2014-11-25 10:10:39.120] [INFO] err - GET/img/clients/square-enix-screenshot.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/square-enix-screenshot.png'
+[2014-11-25 10:10:39.127] [INFO] err - GET/img/clients/square-enix.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/square-enix.png'
+[2014-11-25 10:10:39.128] [INFO] err - GET/img/clients/arthritis-screenshot.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/arthritis-screenshot.png'
+[2014-11-25 10:10:39.132] [INFO] err - GET/img/clients/arthritis-logo.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/clients/arthritis-logo.png'
+[2014-11-25 10:10:39.135] [INFO] err - GET/img/bolt.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/bolt.png'
+[2014-11-25 10:10:39.135] [INFO] err - GET/img/icann-accredited.png
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/img/icann-accredited.png'
+[2014-11-25 10:11:22.922] [INFO] err - GET/
+
+[2014-11-25 14:00:10.114] [INFO] err - GET/??/frontlib/scripts/sea-modules/app/blui/ui-dialog.js,app/base/base.js
+ENOENT, stat '/users/jade/documents/devworkspace/git/static/frontlib/scripts/sea-modules/app/blui/ui-dialog.js'

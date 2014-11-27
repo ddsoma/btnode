@@ -37,13 +37,11 @@ function validatefile(pathnames,callback){
 	})(0,pathnames.length)
 }
 
-
 function outputFile(pathnames,res){
 	var body="";
     (function next(i,len){
     	if(i<len){
     		  var readstream=fs.createReadStream(pathnames[i]);
-    		  
 	    		  readstream.pipe(res,{end:false});
 	    		  	readstream.on("end",function(){
 	    		  	 	next(i+1,len);
@@ -61,9 +59,7 @@ var host=config.host||"localhost",
 
 http.createServer(function(req,res){
 	var urlstr=req.url;
-	
 	if(urlstr!="/favicon.ico"){
-
 		if(urlstr.indexOf("??")==-1){
 			urlstr = urlstr.replace('/', '/??');
     	}
@@ -105,9 +101,5 @@ http.createServer(function(req,res){
 	    		 outputFile(pathnames,res);
 	    	}
    		 });
-	 }else{
-	 		res.setHeader("Content-Type","image/x-icon");
-	 		res.end(ico);
-	 	
 	 }
-}).listen(port,host)
+}).listen(port)

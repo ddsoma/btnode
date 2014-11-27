@@ -1,8 +1,9 @@
 module.exports={
 	port:"8081",
-	host:"",
+	host:"static.baiten.cn",
+	base:"/users/jade/documents/devworkspace/git/static",
     root:"/users/jade/documents/devworkspace/git/static",
-	gruntFile:["js/bracelet/app/**/**.js","js/so/app/**/**.js"],
+	gruntFile:["bracelet/app/**/**.js","so/app/**/**.js"],
 	spm:{
 		"base":"/js/sea-modules",
 		"alias":{

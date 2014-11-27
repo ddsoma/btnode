@@ -1,6 +1,7 @@
 module.exports={
 	port:"8081",
-	host:"",
+	host:"static.baiten.cn",
+	
     root:"/users/jade/documents/devworkspace/git/static",
 	gruntFile:["js/bracelet/app/**/**.js","js/so/app/**/**.js"],
 	spm:{
