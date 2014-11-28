@@ -3,6 +3,8 @@ module.exports={
 	host:"static.baiten.cn",
 	base:"/users/jade/documents/devworkspace/git/static",
     root:"/users/jade/documents/devworkspace/git/static",
+    js:"js",
+    css:"css",
 	gruntFile:["bracelet/app/**/**.js","so/app/**/**.js"],
 	spm:{
 		"base":"/js/sea-modules",

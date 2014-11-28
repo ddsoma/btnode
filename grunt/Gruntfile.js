@@ -4,6 +4,8 @@ module.exports = function (grunt) {
     var text = transport.text.init(grunt);
     var script = transport.script.init(grunt);
     var config=require("../config");
+    var js=config.js;
+    var css=config.css;
     grunt.initConfig({
         pkg : grunt.file.readJSON("package.json"),
         transport : {
@@ -18,7 +20,7 @@ module.exports = function (grunt) {
                 files : [
                     {
                         expand: true,
-                        cwd : config.root+"/js",
+                        cwd : config.root+"/"+js,
                         src : config.gruntFile,
                         filter : 'isFile',
                         dest : config.root+'/build'
@@ -37,7 +39,7 @@ module.exports = function (grunt) {
                         expand: true,
                         cwd: config.root+'/build',
                         src: config.gruntFile,
-                        dest: config.root+"/assets/js",
+                        dest: config.root+"/assets/"+js,
                         filter:"isFile",
                         ext: '.js'
                     }
@@ -49,9 +51,9 @@ module.exports = function (grunt) {
                 files: [
                     {
                         expand: true,
-                        cwd: config.root+"/assets/js",
+                        cwd: config.root+"/assets/"+js,
                         src: ['**/*.js', '!**/*-debug.js'],
-                        dest: config.root+"/assets/js",
+                        dest: config.root+"/assets/"+js,
                         filter:"isFile",
                         ext: '.js'
                     }
@@ -66,10 +68,10 @@ module.exports = function (grunt) {
                 },
                 files:[{
                     expand:true,
-                    cwd:config.root+"/css",
+                    cwd:config.root+"/"+css,
                     src:"**/*.css",
                     filter:"isFile",
-                    dest:config.root+"/assets/css",
+                    dest:config.root+"/assets/"+css,
                     ext:".css"
                 }]
             }
@@ -88,6 +90,5 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-css-combo');
     grunt.registerTask('build-styles', ['transport:styles', 'concat:styles', 'uglify:styles', 'clean']);
     grunt.registerTask('build-app1', ['transport:app1', 'concat:app1', 'uglify:app1', 'clean',"css_combo"]);
-    
 //    grunt.registerTask('default', ['clean']);
 };
