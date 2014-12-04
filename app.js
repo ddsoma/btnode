@@ -44,8 +44,8 @@ function outputFile(pathnames,res){
     		  var readstream=fs.createReadStream(pathnames[i]);
 	    		  readstream.pipe(res,{end:false});
 	    		  	readstream.on("end",function(){
+	    		  		res.write("\r\n");
 	    		  	 	next(i+1,len);
-	    		  	 
 	    		  	});
     		}else{
     			res.end(body);
@@ -64,11 +64,10 @@ http.createServer(function(req,res){
 			urlstr = urlstr.replace('/', '/??');
     	}
 		var paths=urlstr.split("??");
-		if(paths[1].indexOf("?")!=-1){
-			paths[1]=paths[1].split("?")[0];
-		}
-  
 		var pathnames=paths[1].split(",").map(function(value){
+			if(value.indexOf("?")!=-1){
+				value=value.split("?")[0];
+			}
 			return path.join(root, paths[0],value);
 		})
 

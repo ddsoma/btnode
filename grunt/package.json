@@ -8,12 +8,18 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies":{
-  		"grunt":"*",
-  		"grunt-contrib-concat":"^0.5.0",
-  		"grunt-contrib-jshint":"*",
-  		"grunt-contrib-uglify":"*",
-  		"grunt-contrib-watch":"*",
-  		"grunt-css-combo":"*"
+  "devDependencies": {
+    "grunt": "*",     
+    "grunt-cmd-concat": "*",
+    "grunt-cmd-transport": "*",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-css-combo": "*",   
+    "grunt-tmod": "^1.0.0",
+    "grunt-contrib-imagemin": "*"
   }
 }

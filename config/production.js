@@ -2,10 +2,15 @@ module.exports={
 	port:"8081",
 	host:"static.baiten.cn",
 	base:"/users/jade/documents/devworkspace/git/static",
-    root:"/users/jade/documents/devworkspace/git/static",
+    root:"D:/temp/static",
     js:"js",
     css:"css",
-	gruntFile:["bracelet/app/**/**.js","so/app/**/**.js"],
+    img:"images",
+    templateHtml:"templateHtml",
+    imagebuild:['images/**/*.{png,jpg,gif}'],
+    template:"templateHtml/patent/**/*.html",
+	gruntFile:["bra/**/**.js","tpl/**/*.js"],  
+	tpldest:"../tpl",
 	spm:{
 		"base":"/js/sea-modules",
 		"alias":{
@@ -13,7 +18,8 @@ module.exports={
 			"cookie":"gallery/jquery.cookie/jquery.cookie.js",
 			"template":"gallery/template/template.min.js",
 			"jquery-validate":"gallery/jquery.validate/jquery.validate.js",
-			"datapicker":"gallery/My97DatePicker/WdatePicker.js"
+			"datapicker":"gallery/My97DatePicker/WdatePicker.js",
+			 "placeholder":"gallery/jquery.placeholders/placeholder.js"
 		}
 	}
 }
