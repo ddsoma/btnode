@@ -151,6 +151,6 @@ module.exports = function (grunt) {
     grunt.registerTask('build-app1', ["imagemin","tmod",'transport:app1', 'concat:app1', 'uglify:app1', "css_combo","copy",'clean']);
     grunt.registerTask("build-imagemin",["imagemin"]);
     grunt.registerTask("build-tmod",["tmod"]);
-    grunt.registerTask("tmod-watch",["watch:template"]);
+    grunt.registerTask("tmod-watch",["tmod","watch:template"]);  
 
 };
