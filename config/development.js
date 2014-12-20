@@ -1,16 +1,16 @@
 module.exports={
 	port:"8081",
 	host:"static.baiten.cn",
-	base:"/users/jade/documents/devworkspace/git/static",
-    root:"D:/temp/static",
+  	root:"D:/devworkspace/git/web-protal-frontend-release0.1/platform-frontend-site/src/main/webapp/frontlib",  
     js:"js",
     css:"css",
     img:"images",
-    templateHtml:"templateHtml/",  
+    templateHtml:"templateHtml",
     imagebuild:['images/**/*.{png,jpg,gif}'],
     template:"templateHtml/patent/**/*.html",
-	gruntFile:["bra/**/**.js","tpl/**/*.js"],  
+	gruntFile:["bra/**/**.js","tpl/**/*.js"],     
 	tpldest:"../tpl",
+	dest:"assets",  
 	spm:{
 		"base":"/js/sea-modules",
 		"alias":{
@@ -19,7 +19,7 @@ module.exports={
 			"template":"gallery/template/template.min.js",
 			"jquery-validate":"gallery/jquery.validate/jquery.validate.js",
 			"datapicker":"gallery/My97DatePicker/WdatePicker.js",
-			"placeholder":"sea-modules/gallery/jquery.placeholders/placeholder.js"
+			 "placeholder":"gallery/jquery.placeholders/placeholder.js"
 		}
 	}
 }

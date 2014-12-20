@@ -8,11 +8,11 @@ module.exports = function (grunt) {
     var css=config.css;
 
     grunt.initConfig({
-        pkg : grunt.file.readJSON("package.json"),    
+          pkg : grunt.file.readJSON("package.json"),    
           tmod: {
               template: {
                  files:[{
-                      src:config.root+"/"+js+"/templateHtml"
+                      src:config.root+"/"+js+"/"+config.templateHtml
                   }],
                   options: {
                       debug : false,
@@ -56,27 +56,27 @@ module.exports = function (grunt) {
                     {
                         expand: true,
                         cwd: config.root+'/build',
-                       src: ['**/*.js'],
-                        dest: config.root+"/build1/"+js,
+                        src: ['**/*.js'],
+                        dest: config.root+"/"+config.dest+"/"+js,
                         filter:"isFile",
                         ext: '.js'
-                    }
+                    }  
                 ]
             }
         },
         uglify : {
-            app1 : {
+            app : {
                 files: [
                     {
                         expand: true,
-                        cwd: config.root+"/build1/"+js,
+                        cwd: config.root+"/"+config.dest+"/"+js,  
                         src: ['**/*.js', '!**/*-debug.js'],
-                        dest: config.root+"/assets/"+js,
+                        dest: config.root+"/"+config.dest+"/"+js,    
                         filter:"isFile",
                         ext: '.js'
                     }
                 ]
-            }
+            }           
         },
         css_combo:{
             cssbuild:{
@@ -89,7 +89,7 @@ module.exports = function (grunt) {
                     cwd:config.root+"/"+css,
                     src:"**/*.css",
                     filter:"isFile",
-                    dest:config.root+"/assets/"+css,
+                    dest:config.root+"/"+config.dest+"/"+css,
                     ext:".css"
                 }]
             }
@@ -104,8 +104,8 @@ module.exports = function (grunt) {
                  {
                     expand: true, 
                     cwd: config.root, 
-                    src: config.imagebuild, 
-                    dest: config.root+"/assets"
+                    src: config.img,   
+                    dest: config.root+"/"+config.dest
                   }
              ]
            }
@@ -115,12 +115,12 @@ module.exports = function (grunt) {
                     expand: true,
                     cwd: config.root+config.spm.base,
                     src: '**',
-                    dest: config.root+"/assets/js",
-                    filter: 'isFile',
+                    dest: config.root+"/"+config.dest+"/js",
+                    filter: 'isFile'
               }
-             
+                 
         },
-        clean : {
+        clean : { 
             options:{
                 force:true
             },
@@ -138,7 +138,7 @@ module.exports = function (grunt) {
     });
 
     grunt.loadNpmTasks('grunt-cmd-transport');
-    grunt.loadNpmTasks('grunt-cmd-concat');
+    grunt.loadNpmTasks('grunt-cmd-concat');  
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-css-combo');
@@ -148,9 +148,11 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     grunt.registerTask('build-styles', ['transport:styles', 'concat:styles', 'uglify:styles', 'clean']);
-    grunt.registerTask('build-app1', ["imagemin","tmod",'transport:app1', 'concat:app1', 'uglify:app1', "css_combo","copy",'clean']);
+    grunt.registerTask('build-app1', ['transport', 'concat:app1', 'uglify', "css_combo","copy",'clean']);
+
+   // grunt.registerTask("build-transport",["transport:app1"]);
     grunt.registerTask("build-imagemin",["imagemin"]);
-    grunt.registerTask("build-tmod",["tmod"]);
-    grunt.registerTask("tmod-watch",["tmod","watch:template"]);  
+    grunt.registerTask("build-tmod",["tmod"]);  
+    grunt.registerTask("tmod-watch",["tmod","watch:template"]);    
 
 };

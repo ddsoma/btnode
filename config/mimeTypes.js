@@ -12,6 +12,7 @@ module.exports = {
     ".svg": "image/svg+xml",
     ".swf": "application/x-shockwave-flash",
     ".tiff": "image/tiff",
+    ".woff":"application/octet-stream",
     ".txt": "text/plain",
     ".wav": "audio/x-wav",
     ".wma": "audio/x-ms-wma",

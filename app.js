@@ -86,6 +86,11 @@ http.createServer(function(req,res){
 	    		 var expires = new Date();
    				 expires.setTime(expires.getTime() + 3600 * 1000);
 
+   				 var r=/.ttf|.ttc|.otf|.eot|.woff/;
+   				 if(r.test(extname)){
+   				 	res.setHeader("Access-Control-Allow-Origin","http://localhost:8080");  
+   				 }
+
    				 res.setHeader("Expires", expires.toUTCString());
 	    		 res.setHeader("Cache-Control","max-age=3600");
 	    		 res.setHeader("Content-Type",mime[extname]);
